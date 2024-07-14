@@ -62,6 +62,7 @@
   "scripts": {
     "start": "npx gulp",
     "build": "npx gulp build",
+    "inst": "composer install && npx gulp build",
     "docs": "npx gulp docs"
   }
 }
