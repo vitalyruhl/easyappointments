@@ -8,7 +8,7 @@ services:
     volumes:
       - '.:/var/www/html'
       - './docker/php-fpm/php-ini-overrides.ini:/usr/local/etc/php/conf.d/99-overrides.ini'
-
+# todo add storage to container
   nginx:
     image: 'nginx:1.23.3-alpine'
     working_dir: /var/www/html
